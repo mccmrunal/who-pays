@@ -26,7 +26,7 @@ class MyProvider  extends Component{
     next=()=>{
         if(this.state.players.length >1)
             this.setState({
-                ...this.state,  stage:2
+                ...this.state,   stage:2
             })
             else{
                 toast.error("You need more than one player",{
